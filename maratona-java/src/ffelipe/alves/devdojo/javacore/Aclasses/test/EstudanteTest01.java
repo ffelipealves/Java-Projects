@@ -1,8 +1,8 @@
-package ffelipe.alves.devdojo.javacore.classes.test;
+package ffelipe.alves.devdojo.javacore.Aclasses.test;
 
-import ffelipe.alves.devdojo.javacore.classes.dominio.Estudante;
+import ffelipe.alves.devdojo.javacore.Aclasses.dominio.Estudante;
 
-public class PessoaTest01 {
+public class EstudanteTest01 {
     public static void main(String[] args) {
         //tipo    var referencia    novo objeto
         Estudante estudante01 = new Estudante();
