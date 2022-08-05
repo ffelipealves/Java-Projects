@@ -1,9 +1,10 @@
 package ffelipe.alves.devdojo.Metodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salario = new double[3];
+    private String nome;
+    private int idade;
+    private double[] salario = new double[3];
+    private double media=0;
 
     public void imprimeDados(){
         System.out.println(this.nome);
@@ -20,7 +21,6 @@ public class Funcionario {
 
     public double mediaSalarial(){
         if (salario != null){
-            double media =0;
             for (double index:salario){
                 media+=index;
             }
@@ -31,4 +31,31 @@ public class Funcionario {
         return 0;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setSalario(double[] salario) {
+        this.salario = salario;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public double[] getSalario() {
+        return salario;
+    }
+
+    public double getMedia() {
+        return media;
+    }
 }
