@@ -4,8 +4,9 @@ public class Anime {
     private String nome;
     private int[] episodios;
     //Sequencia de execucao da classe
-    //1-Alocado espaço em memoria para objeto
+    //1- Alocado espaço em memoria para objeto
     //2- cada atributo da classe eh criado e inicializados com valores defaults ou nao
+    //2.5-Blocos de inicializacao statico
     //3- Bloco de inicializacao
     //4- Contrutores
     //5- Metodos
