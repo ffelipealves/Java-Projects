@@ -13,5 +13,6 @@ public class ProdutoTest03 {
         tomate.setDataValidade("13/09/2023");
 
         CalculadoraImposto.calcularImposto(tomate);
+        CalculadoraImposto.calcularImposto(produto);
     }
 }
