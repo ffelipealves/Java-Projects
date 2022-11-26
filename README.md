@@ -1,2 +1,2 @@
-# Java-Projects
+# java-estudos
  Estudos sobre Java
